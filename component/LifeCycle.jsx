@@ -36,6 +36,10 @@ class LifeCycle extends Component{
             this.setState({count:10});
         }
     }
+    
+    componentWillUnmount(){
+        alert("component removed");
+    }
 
     render(){
         // alert("render call");
